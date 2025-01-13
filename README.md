@@ -1,9 +1,9 @@
 # Install
 
-Install packages with yarn:
+Install packages with bun:
 
 ```sh
-yarn
+bun
 ```
 
 For login, we have set up Github auth with [Better Auth](https://www.better-auth.com/) as an example.
@@ -17,21 +17,21 @@ For login, we have set up Github auth with [Better Auth](https://www.better-auth
 in three separate tabs:
 
 ```
-yarn docker up
-yarn zero
-yarn dev
+bun docker up
+bun zero
+bun dev
 ```
 
-to run tauri you can run this instead of `yarn dev`:
+to run tauri you can run this instead of `bun dev`:
 
 ```
-yarn dev:tauri
+bun dev:tauri
 ```
 
 to reset all your data:
 
 ```
-yarn docker:start:clean
+bun docker:start:clean
 ```
 
 ## Tauri
